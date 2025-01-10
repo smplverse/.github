@@ -31,7 +31,7 @@
 Upon sending the upload transaction, the data is written (both hashes) into the
 `uploads` mapping in the smart-contract, irreversibly, mapping the tokenId to
 the uploaded image and the assigned smpl to the address of `msg.sender`
-at the same time. After [smplverse/interface](https://github.com/smplverse/interface)
+at the same time. After [smplverse/frontend](https://github.com/smplverse/frontend)
 transaction is confirmed, the user-image is POST'ed from the clientside, 
 [smplverse/api](https://github.com/smplverse/api) verifies that the transaction data
 and state on the chain is indeed matching the request. After the assertions the
